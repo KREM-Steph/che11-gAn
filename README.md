@@ -362,7 +362,7 @@ Bei chemischen Reaktionen werden aus Edukten (Reaktions-)Produkte. Dies bezeichn
 
 Stell dir vor, du willst vor Beginn des Unterrichts Kaffee trinken. In welchen Gefäßen könntest du diesen Kaffee transportieren? 
 
-![](System_und_Umgebung_Kaffee.png)
+![System und Umgebung](System_und_Umgebung_Kaffee.png "Zusammenhang zwischen System und Umgebung [^1]")
 
 Naja, du könntest einfach deine Kaffeetasse vom Küchentisch nehmen und damit zur Schule gehen (das wäre natürlich unpraktisch, aber theoretisch denkbar). Wenn du an der Schule ankommst, hast du dann die Hälfte des Kaffees verschüttet und der klägliche Rest ist kalt. Du hast den Fehler gemacht und ein `offenes System` als Transportgefäß genutzt. Ein offenes System kann mit der Umgebung sowohl Stoffe austauschen (du verschüttest Kaffee oder etwas fällt hinein) als auch Energie austauschen (Der Kaffee gibt Wärme an die kältere Umgebung ab).
 
@@ -380,8 +380,16 @@ Nagut...Versuch Nummer drei. Diese Mal füllst du zu Hause deinen Kaffee in eine
 >
 > Es ist wichtig, dass du immer weißt, ob du gerade das System oder die Umgebung betrachtest. Je nachdem ändern sich die Vorzeichen in Berechnungen.
 
+[^1]: Johannes Kremsreiter, 2026, KI-generiert mit GPT Version 5.6 Sol (EmuKI)
+
 ### Die Reaktionswärme
 
+Wenn man wissen möchte wieviel Energie $ΔU$ bei einer chemischen Reaktion abgegeben oder aufgenommen wird, muss alle Arten von Energie berücksichtigen. Neben der Wärmemenge $Q$ ist damit jede Art von physikalischer Arbeit $W$ (z. B. Volumenarbeit) gemeint. Es gilt:
+
+$$ΔU = Q + W$$
+
+![Schemazeichnung eines Bombenkalorimeters](Bombenkalorimeter.png)
+![Schemazeichnung eines Lösungskalorimeters](Loesungskalorimeter.png)
 ### Die Enthalpie
 
 ### Der Satz von Hess
