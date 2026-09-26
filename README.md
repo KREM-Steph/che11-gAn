@@ -277,7 +277,7 @@ E ^
 
 {{8-12}}
 ****
-Wollen wir nicht nur den energetischen Zustand vor und nach der Reaktion, also „Start“ und „Ziel“ betrachten, ergänzen wir auf einer zweiten Achse den Reaktionsverlauf. Damit sehen wir nun auch die Entwicklung der inneren Energie und damit „den energetischen Weg“. Wir erhalten ein so genanntes [`Energieverlaufsdiagramm`](#Glossar) (hier sind zur Vereinfachung __E__{dukte} und __P__(rodukte) statt der chemischen Formeln eingetragen; sind diese bekannt, werden sie auch eingetragen!). Neben der Änderung der inneren Energie $ΔE$ wird hier auch die [`Aktivierungsenergie`](#Glossar) $E_{A}$ dargestellt.
+Wollen wir nicht nur den energetischen Zustand vor und nach der Reaktion, also „Start“ und „Ziel“ betrachten, ergänzen wir auf einer zweiten Achse den Reaktionsverlauf. Damit sehen wir nun auch die Entwicklung der inneren Energie und damit „den energetischen Weg“. Wir erhalten ein so genanntes [`Energieverlaufsdiagramm`](#Glossar) (hier sind zur Vereinfachung __E__(dukte) und __P__(rodukte) statt der chemischen Formeln eingetragen; sind diese bekannt, werden sie auch eingetragen!). Neben der Änderung der inneren Energie $ΔE$ wird hier auch die [`Aktivierungsenergie`](#Glossar) $E_{A}$ dargestellt.
 ``` ascii
 E ^
   |
@@ -324,7 +324,7 @@ E ^
   |- - - - - - - --------------------
   |                                ^
   |                                |
-  |                                | "ΔE > 0"
+  |                                | "$$ΔE > 0$$"
   |                                |
   |                                |
   |   "$\ce{6 CO2 + 6 H2O}$"       |
@@ -338,10 +338,10 @@ Und als Energieverlaufsdiagramm:
 E ^
   |                                
   |             .-. - - - -  - - ^- -
-  |            /   \             |    "$E_{A}$"
+  |            /   \             | "$E_{A}$"
   |           /     '------ - - -|-^- 
   |          /                   | |
-  |         /                    | | "$$ΔE > 0$$"
+  |         /                    | |"$$ΔE > 0$$"
   |        /                     | |
   | ------' - - - - - - - - - - - - - 
   |
