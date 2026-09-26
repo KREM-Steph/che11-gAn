@@ -262,14 +262,14 @@ Im Chemieunterricht stellen wir das schematisch als [`Energiediagramm`](#Glossar
 ``` ascii
 E ^
   |
-  |     "{5-12}{$\ce{C + O2}$ Energieniveau der Edukte}
+  |     " $\ce{C + O2}$ "
   |- - ---------------
   |                  |
   |                  |
-  |                  | "{7-12}{ΔE < 0 negative Energiedifferenz}"
+  |                  | " ΔE < 0 negative Energiedifferenz "
   |                  |
   |                  |
-  |                  v  "{6-12}{$\ce{CO2}$ Energieniveau der Produkte}"
+  |                  v" $\ce{C + O2}$ Energieniveau der Produkte "
   |- - - - - - - ---------------
   |
 ```
@@ -281,13 +281,13 @@ Wollen wir nicht nur den energetischen Zustand vor und nach der Reaktion, also �
 ``` ascii
 E ^
   |
-  |         .-. - - - - - - - - - ^ -
+  | - - - - .-. - - - - - - - - - ^ -
   |    E   /   \                  |Aktivierungsenergie
-  | ------'     \ - - - - - - - - - -
+  | ------' - - \ - - - - - - - - - -
   |              \                |Energieänderung
   |               \               |ΔE < 0
   |                \    P         |
-  |                 '------ - - - v -
+  | - - - - - - - - '------ - - - v -
   |
   |
   +------------------------------------------------>
@@ -337,9 +337,9 @@ Und als Energieverlaufsdiagramm:
 ``` ascii
 E ^
   |                                
-  |             .-. - - - -  - - ^- -
+  | - - - - - - .-. - - - -  - - ^- -
   |            /   \    P        | Aktivierungsenergie 
-  |           /     '------ - - -|-^- 
+  | - - - - - / - - '------ - - -|-^- 
   |          /                   | |
   |         /                    | |Energieänderung
   |    E   /                     | |ΔE > 0
