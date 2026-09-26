@@ -237,9 +237,16 @@ Dabei kommt es aber immer auch zu einem Energieumsatz. Wir untescheiden hierbei 
 
 Die exotherme Reaktion
 ====
-![](Energieschema_exotherm.svg)
+![](Energieschema_exotherm.svg "Energieschema einer exothermen Reaktion")
 
-Bei einer exothermen Reaktion haben die Reaktionsprodukte eine geringere innere Energie als die Edukte.
+Bei einer exothermen Reaktion haben die Reaktionsprodukte eine geringere innere Energie als die Edukte. Da der Energieerhaltungssatz gilt, muss die Energiedifferenz in andere Energieformen umgewandelt und damit abgegeben worden sein. 
+
+> [!NOTE] BEISPIEL
+> Die Kohlen eines Holzkohlegrills werden angezündet und die Luftzufuhr des Grills geöffnet. Es findet eine vollständige Verbrennung (idealisiert) statt:
+>
+> $\ce{C + O2 -> CO2}$
+>
+> Die Differenz der inneren Energie zwischen Kohlenstoff und Sauerstoff auf der einen und Kohlerstoffdioxid auf der anderen Seite, wird als Wärmeenergie (Temperaturerhöhung im Grill) und Lichtenergie (Glühen der Kohlen) abgegeben.
 
 Die endotherme Reaktion
 ===
