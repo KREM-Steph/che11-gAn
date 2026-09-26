@@ -223,7 +223,8 @@ Dabei kommt es aber immer auch zu einem Energieumsatz. Wir untescheiden hierbei 
 Die exotherme Reaktion
 ====
 ![](Energieschema_exotherm.svg)
-Bei einer exothermen Reaktion 
+
+Bei einer exothermen Reaktion haben die Reaktionsprodukte eine geringere innere Energie als die Edukte.
 
 Die endotherme Reaktion
 ===
@@ -240,6 +241,3 @@ ictectiecit
 ### Der Satz von Hess
 
 ### 🥼 Kalorimetrie
-
-
-
