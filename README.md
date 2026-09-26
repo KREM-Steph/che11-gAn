@@ -262,14 +262,14 @@ Im Chemieunterricht stellen wir das schematisch als [`Energiediagramm`](#Glossar
 ``` ascii
 E ^
   |
-  |     "{5-12}{C + O<sub>2</sub> Energieniveau der Edukte}"
+  |     "{5-12}{$\ce{C + O2}$ Energieniveau der Edukte}
   |- - ---------------
   |                  |
   |                  |
   |                  | "{7-12}{ΔE < 0 negative Energiedifferenz}"
   |                  |
   |                  |
-  |                  v  "{6-12}{CO<sub>2</sub> Energieniveau der Produkte}"
+  |                  v  "{6-12}{$\ce{CO2}$ Energieniveau der Produkte}"
   |- - - - - - - ---------------
   |
 ```
@@ -282,10 +282,10 @@ Wollen wir nicht nur den energetischen Zustand vor und nach der Reaktion, also �
 E ^
   |
   |         .-. - - - - - - - - - ^ -
-  |    E   /   \                  |   "E<sub>A</sub>"
+  |    E   /   \                  |Aktivierungsenergie
   | ------'     \ - - - - - - - - - -
-  |              \                |
-  |               \               |"ΔE < 0"
+  |              \                |Energieänderung
+  |               \               |ΔE < 0
   |                \    P         |
   |                 '------ - - - v -
   |
@@ -324,8 +324,8 @@ E ^
   |- - - - - - - --------------------
   |                                ^
   |                                |
-  |                                | "$$ΔE > 0$$"
-  |                                |
+  |                                |Energieänderung
+  |                                |ΔE > 0
   |                                |
   |   "$\ce{6 CO2 + 6 H2O}$"       |
   |- - ------------------------------
@@ -338,11 +338,11 @@ Und als Energieverlaufsdiagramm:
 E ^
   |                                
   |             .-. - - - -  - - ^- -
-  |            /   \             | "$E_{A}$"
+  |            /   \    P        | Aktivierungsenergie 
   |           /     '------ - - -|-^- 
   |          /                   | |
-  |         /                    | |"$$ΔE > 0$$"
-  |        /                     | |
+  |         /                    | |Energieänderung
+  |    E   /                     | |ΔE > 0
   | ------' - - - - - - - - - - - - - 
   |
   |
