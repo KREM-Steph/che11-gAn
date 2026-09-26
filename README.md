@@ -1,8 +1,6 @@
 <!--
 author:   KREM
 
-email:    your@mail.org
-
 version:  0.0.1
 
 language: de
@@ -264,14 +262,14 @@ Im Chemieunterricht stellen wir das schematisch als [`Energiediagramm`](#Glossar
 ``` ascii
 E ^
   |
-  |     "{{5-12}} $\ce{C + O2}$"
+  |     "{5-12}{$\ce{C + O2}$ Energieniveau der Edukte}"
   |- - ---------------
   |                  |
   |                  |
-  |                  | "{{7-12}} ΔE < 0"
+  |                  | "{7-12}{ΔE < 0 negative Energiedifferenz}"
   |                  |
   |                  |
-  |                  v  "{{6-12}} $\ce{CO2}$"
+  |                  v  "{6-12}{$\ce{CO2}$ Energieniveau der Produkte}"
   |- - - - - - - ---------------
   |
 ```
@@ -362,6 +360,26 @@ Bei chemischen Reaktionen werden aus Edukten (Reaktions-)Produkte. Dies bezeichn
 
 #### Die Reaktion als System
 
+Stell dir vor, du willst vor Beginn des Unterrichts Kaffee trinken. In welchen Gefäßen könntest du diesen Kaffee transportieren? 
+
+![](System_und_Umgebung_Kaffee.png)
+
+Naja, du könntest einfach deine Kaffeetasse vom Küchentisch nehmen und damit zur Schule gehen (das wäre natürlich unpraktisch, aber theoretisch denkbar). Wenn du an der Schule ankommst, hast du dann die Hälfte des Kaffees verschüttet und der klägliche Rest ist kalt. Du hast den Fehler gemacht und ein `offenes System` als Transportgefäß genutzt. Ein offenes System kann mit der Umgebung sowohl Stoffe austauschen (du verschüttest Kaffee oder etwas fällt hinein) als auch Energie austauschen (Der Kaffee gibt Wärme an die kältere Umgebung ab).
+
+Beim nächsten Mal bist du schlauer. Du kaufst dir auf dem Schulweg beim Bäcker einen Coffee to go. Wenn du in der Schule ankommst, hast du keinen Tropfen verschüttet und kannst nun deine große Potion kalten Kaffee genießen. Das `geschlossene System`, dass du dieses Mal benutzt hast, hat einen Austausch von Stoffen unterbunden, konnte aber die Wärme nicht halten. Es fand weiterhin ein Energieaustausch statt.
+
+Nagut...Versuch Nummer drei. Diese Mal füllst du zu Hause deinen Kaffee in einen Thermosbecher, schraubst den Deckel dicht darauf und legst ihn in deinen Schulrucksack. Du musst dir keine Sorgen machen, dass irgendetwas ausläuft. In der Schule angekommen, schraubst du den Deckel ab ud gießt dir eine Tasse herrlich heißen Kaffees ein. Mit dem `isolierten System` (auch abgeschlossenes System genannt) Thermosbecher hast du nun sowohl einen Stoffaustausch als auch einen Energieaustausch effektiv unterbunden.
+
+> [!TIP] MERKE
+> Wir unterscheiden bei energetischen Betrachtungen in Chemie __System__ und __Umgebung__ voneinander. Diese beiden sind durch eine Grenze (z.B. die Wand eines Pappbechers) voneinander getrennt. Im System läuft die chemische Reaktion ab. Je nach Art des Systems, kann es zu Austauschvorgängen mit der Umgebung kommen.
+>
+>| System           | offen | geschlossen | isoliert |
+>| ---------------- |:-----:|:-----------:|:--------:|
+>| Stoffaustausch   |  ✅   |     ❌      |    ❌    |
+>| Energieaustausch |  ✅   |     ✅      |    ❌    |
+>
+> Es ist wichtig, dass du immer weißt, ob du gerade das System oder die Umgebung betrachtest. Je nachdem ändern sich die Vorzeichen in Berechnungen.
+
 ### Die Reaktionswärme
 
 ### Die Enthalpie
@@ -372,10 +390,12 @@ Bei chemischen Reaktionen werden aus Edukten (Reaktions-)Produkte. Dies bezeichn
 
 ## Glossar
 
-| Begriff | Erklärung |
-| :-----: | :-------- |
-| Energiediagramm | Ein Diagramm, das den relativen Bezug zwischen innerer Energie der Edukte und innerer Energie der Produkte dargestellt. |
-| Energieverlaufsdiagramm | Ein Diagramm, das die Entwicklung der inneren Energie des Systems in Abhängigkeit vom Reaktionsverlauf darstellt. |
+|         Begriff         | Erklärung                                                                                                                                                                   |
+|:-----------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   Aktivierungsenergie   | Energiebetrag, der aufgewendet werden muss, damit Teilchen mit ausreichender Geschwindigkeit zusammenstoßen, so dass es zu einer merklichen Reaktionsgeschwindigkeit kommt. | 
+|     Energiediagramm     | Ein Diagramm, das den relativen Bezug zwischen innerer Energie der Edukte und innerer Energie der Produkte dargestellt.                                                     |
+| Energieverlaufsdiagramm | Ein Diagramm, das die Entwicklung der inneren Energie des Systems in Abhängigkeit vom Reaktionsverlauf darstellt.                                                           |
+
 
 
 
