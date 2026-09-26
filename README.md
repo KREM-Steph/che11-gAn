@@ -1,3 +1,18 @@
+<!--
+author:   KREM
+
+email:    your@mail.org
+
+version:  0.0.1
+
+language: de
+
+narrator: Deutsch Female
+
+comment:  Kursskript Chemie Oberstufe
+          Grundlegendes Anforderungsniveau - Sachsen-Anhalt
+-->
+
 # Chemie gAn
 
 ## Sicherheitsbelehrung
