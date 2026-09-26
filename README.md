@@ -231,28 +231,134 @@ Du solltest wissen, dass …
 
 #### Die Eigenschaften einer chemischen Reaktion
 
+{{1-12}}
+****
 Chemische Reaktionen sind durch eine Stoffumwandlung gekennzeichnet, d. h. Edukte verschwinden und Reaktionsprodukte werden gebildet.
 
 Dabei kommt es aber immer auch zu einem Energieumsatz. Wir untescheiden hierbei zwischen zwei Fällen:
+****
 
+{{2-12}}
+****
 Die exotherme Reaktion
 ====
-![](Energieschema_exotherm.svg "Energieschema einer exothermen Reaktion")
 
-Bei einer exothermen Reaktion haben die Reaktionsprodukte eine geringere innere Energie als die Edukte. Da der Energieerhaltungssatz gilt, muss die Energiedifferenz in andere Energieformen umgewandelt und damit abgegeben worden sein. 
+![Energieschema einer exothermen Reaktion](Energieschema_exotherm.svg "Energieschema einer exothermen Reaktion")
 
+Bei einer exothermen Reaktion haben die Reaktionsprodukte eine geringere innere Energie als die Edukte. Da der Energieerhaltungssatz gilt, muss die Energiedifferenz in andere Energieformen umgewandelt und damit abgegeben worden sein.
+****
+
+{{3-12}}
+****
 > [!NOTE] BEISPIEL
 > Die Kohlen eines Holzkohlegrills werden angezündet und die Luftzufuhr des Grills geöffnet. Es findet eine vollständige Verbrennung (idealisiert) statt:
 >
 > $\ce{C + O2 -> CO2}$
 >
 > Die Differenz der inneren Energie zwischen Kohlenstoff und Sauerstoff auf der einen und Kohlerstoffdioxid auf der anderen Seite, wird als Wärmeenergie (Temperaturerhöhung im Grill) und Lichtenergie (Glühen der Kohlen) abgegeben.
+****
 
+{{4-12}}
+****
+Im Chemieunterricht stellen wir das schematisch als [`Energiediagramm`](#Glossar) dar.
+``` ascii
+E ^
+  |
+  |     "{{5-12}} $\ce{C + O2}$"
+  |- - ---------------
+  |                  |
+  |                  |
+  |                  | "{{7-12}} ΔE < 0"
+  |                  |
+  |                  |
+  |                  v  "{{6-12}} $\ce{CO2}$"
+  |- - - - - - - ---------------
+  |
+```
+****
+
+{{8-12}}
+****
+Wollen wir nicht nur den energetischen Zustand vor und nach der Reaktion, also „Start“ und „Ziel“ betrachten, ergänzen wir auf einer zweiten Achse den Reaktionsverlauf. Damit sehen wir nun auch die Entwicklung der inneren Energie und damit „den energetischen Weg“. Wir erhalten ein so genanntes [`Energieverlaufsdiagramm`](#Glossar) (hier sind zur Vereinfachung __E__{dukte} und __P__(rodukte) statt der chemischen Formeln eingetragen; sind diese bekannt, werden sie auch eingetragen!). Neben der Änderung der inneren Energie $ΔE$ wird hier auch die [`Aktivierungsenergie`](#Glossar) $E_{A}$ dargestellt.
+``` ascii
+E ^
+  |
+  |         .-. - - - - - - - - - ^ -
+  |    E   /   \                  | "E<sub>A</sub>"
+  | ------'     \ - - - - - - - - - -
+  |              \                |
+  |               \               |"ΔE < 0"
+  |                \    P         |
+  |                 '------ - - - v -
+  |
+  |
+  +------------------------------------------------>
+                                  Reaktionsverlauf
+```
+****
+{{9-12}}
+****
 Die endotherme Reaktion
 ===
-ictectiecit
 
+![Energieschema einer endothermen Reaktion](Energieschema_endotherm.svg "Energieschema einer endothermen Reaktion")
 
+Bei einer endothermen Reaktion haben die Reaktionsprodukte eine höhere innere Energie als die Edukte. Da der Energieerhaltungssatz gilt, muss die Energiedifferenz während der Reaktion von der Umgebung aufgenommen worden sein.
+****
+
+{{10-12}}
+****
+> [!NOTE] BEISPIEL
+> Lichtstrahlen der Sonne scheinen auf ein Blatt einer Pflanze. In den Chloroplasten der Pflanze findet Fotosynthese statt, also die Umwandlung von Kohlenstoffdioxid und Wasser in Glucose und Sauerstoff mit Hilfe der Energie des Sonnenlichts:
+>
+> $\ce{6 CO2 + 6 H2O -> C6H12O6 + 6 O2}$
+>
+> Die Differenz der inneren Energie zwischen Kohlenstoffdioxid und Wasser auf der einen und Glucose und Sauerstoff auf der anderen Seite, wird als Lichtenergie aufgenommen. Wir sehen nicht, dass Lichtenergie bei dieser Reaktion aufgenommen wird, aber wir können darauf schließen, da die Fotosynthesereaktion bei Nacht stoppt.
+****
+
+{{11-12}}
+****
+Stellen wir nun auch die Fotosynthesereaktion im Energiediagramm dar:
+``` ascii
+E ^
+  |
+  |              "$\ce{C6H12O6 + 6 O2}$"
+  |- - - - - - - --------------------
+  |                                ^
+  |                                |
+  |                                | "ΔE > 0"
+  |                                |
+  |                                |
+  |   "$\ce{6 CO2 + 6 H2O}$"       |
+  |- - ------------------------------
+  |
+```
+
+Und als Energieverlaufsdiagramm:
+
+``` ascii
+E ^
+  |                                
+  |             .-. - - - -  - - ^- -
+  |            /   \             | "E<sub>A</sub>"
+  |           /     '------ - - -|-^- 
+  |          /                   | |
+  |         /                    | | "ΔE > 0"
+  |        /                     | |
+  | ------' - - - - - - - - - - - - - 
+  |
+  |
+  +------------------------------------------------>
+                                  Reaktionsverlauf
+```
+****
+
+{{12}}
+****
+Fassen wir zusammen:
+
+Bei chemischen Reaktionen werden aus Edukten (Reaktions-)Produkte. Dies bezeichnet man als [[Stoffumwandlung]]. Gleichzeitig spielt auch immer die Übertragung von [[Energie]] eine Rolle. Reaktionen, bei denen Energie an die Umgebung abgegeben wird, bezeichnet man als [[exotherm]]. Bei [[endothermen]] Reaktionen wird hingegen Energie aus der Umgebung aufgenommen. Die [[Differenz]] der inneren Energie kann mit einem [[Energiediagramm]] dargestellt werden. Möchte man auch die Entwicklung der inneren Energie während der Reaktion darstellen, benötigt man ein [[Energieverlaufsdiagramm]].
+****
 
 #### Die Reaktion als System
 
@@ -263,3 +369,14 @@ ictectiecit
 ### Der Satz von Hess
 
 ### 🥼 Kalorimetrie
+
+## Glossar
+
+| Begriff | Erklärung |
+| :-----: | :-------- |
+| Energiediagramm | Ein Diagramm, das den relativen Bezug zwischen innerer Energie der Edukte und innerer Energie der Produkte dargestellt. |
+| Energieverlaufsdiagramm | Ein Diagramm, das die Entwicklung der inneren Energie des Systems in Abhängigkeit vom Reaktionsverlauf darstellt. |
+
+
+
+
