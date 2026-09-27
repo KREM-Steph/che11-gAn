@@ -262,7 +262,7 @@ Im Chemieunterricht stellen wir das schematisch als [`Energiediagramm`](#Glossar
 ``` ascii
 E ^
   |
-  |     " $\ce{C + O2}$ "
+  |     " $\ce{C + O2}$ Energieniveau der Edukte "
   |- - ---------------
   |                  |
   |                  |
@@ -278,21 +278,8 @@ E ^
 {{8-12}}
 ****
 Wollen wir nicht nur den energetischen Zustand vor und nach der Reaktion, also „Start“ und „Ziel“ betrachten, ergänzen wir auf einer zweiten Achse den Reaktionsverlauf. Damit sehen wir nun auch die Entwicklung der inneren Energie und damit „den energetischen Weg“. Wir erhalten ein so genanntes [`Energieverlaufsdiagramm`](#Glossar) (hier sind zur Vereinfachung __E__(dukte) und __P__(rodukte) statt der chemischen Formeln eingetragen; sind diese bekannt, werden sie auch eingetragen!). Neben der Änderung der inneren Energie $ΔE$ wird hier auch die [`Aktivierungsenergie`](#Glossar) $E_{A}$ dargestellt.
-``` ascii
-E ^
-  |
-  | - - - - .-. - - - - - - - - - ^ -
-  |    E   /   \                  |Aktivierungsenergie
-  | ------' - - \ - - - - - - - - - -
-  |              \                |Energieänderung
-  |               \               |ΔE < 0
-  |                \    P         |
-  | - - - - - - - - '------ - - - v -
-  |
-  |
-  +------------------------------------------------>
-                                  Reaktionsverlauf
-```
+
+![](Enengieverlaufsdiagramm_exotherm.svg)
 ****
 {{9-12}}
 ****
@@ -334,21 +321,7 @@ E ^
 
 Und als Energieverlaufsdiagramm:
 
-``` ascii
-E ^
-  |                                
-  | - - - - - - .-. - - - -  - - ^- -
-  |            /   \    P        | Aktivierungsenergie 
-  | - - - - - / - - '------ - - -|-^- 
-  |          /                   | |
-  |         /                    | |Energieänderung
-  |    E   /                     | |ΔE > 0
-  | ------' - - - - - - - - - - - - - 
-  |
-  |
-  +------------------------------------------------>
-                                  Reaktionsverlauf
-```
+![![![](Energieschema_exotherm.svg)](Energieschema_endotherm.svg)](Enengieverlaufsdiagramm_endotherm.svg)
 ****
 
 {{12}}
