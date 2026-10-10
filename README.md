@@ -395,7 +395,7 @@ Exemplarisch kann man das für die Reaktion von Magnesium mit Salzsäure durchde
 >
 > _Hinweis: Schreibe abweichend vom Standard auch „0“ und „1“ in die Kästchen, damit die Aufgabe automatisiert ausgewertet werden kann._
 
-Reaktionsgleichung: [[2]] $Mg +$ [[2]] $HCl \rightarrow$ [[1]] $MgCl_{2} +$ [[2]] $H_{2}$
+Reaktionsgleichung: [[1]] $Mg +$ [[2]] $HCl \rightarrow$ [[1]] $MgCl_{2} +$ [[1]] $H_{2}$
 ****
 Bei dieser Reaktion entsteht pro Mol Magnesium, das reagiert, ein Mol gasförmigen Wasserstoffs. Dadurch erhöht sich die Teilchenzahl in der Gasphase in damit je nachdem das Volumen bzw. der Druck.
 ****
