@@ -9,6 +9,10 @@ narrator: Deutsch Female
 
 comment:  Kursskript Chemie Oberstufe
           Grundlegendes Anforderungsniveau - Sachsen-Anhalt
+
+import: https://cdn.jsdelivr.net/gh/LiaTemplates/algebrite@0.6.3/README.md
+
+import: https://raw.githubusercontent.com/MINT-the-GAP/lia-canvas-ocr/main/README.md
 -->
 
 # Chemie gAn
@@ -357,12 +361,69 @@ Nagut...Versuch Nummer drei. Diese Mal füllst du zu Hause deinen Kaffee in eine
 
 ### Die Reaktionswärme
 
-Wenn man wissen möchte wieviel Energie $ΔU$ bei einer chemischen Reaktion abgegeben oder aufgenommen wird, muss alle Arten von Energie berücksichtigen. Neben der Wärmemenge $Q$ ist damit jede Art von physikalischer Arbeit $W$ (z. B. Volumenarbeit) gemeint. Es gilt:
+Wenn man wissen möchte wieviel Energie $\Delta E_i$ bei einer chemischen Reaktion abgegeben oder aufgenommen wird, muss man alle Arten von Energie berücksichtigen. Neben der Wärmemenge $Q$ ist damit jede Art von Energietransport wie z. B. physikalische Arbeit $W$ (insbesondere Volumenarbeit) gemeint. Es gilt:
 
-$$ΔU = Q + W$$
+$$\Delta E_i = Q + W \quad ; mit \Delta U = \Delta E_{i}$$
+
+> [!IMPORTANT] AUFGABE
+> Löse die obige  Gleichung nach $W$ auf.
+[[W = \Delta E_{i} - Q]]
+@canvas
+
+> [!IMPORTANT] AUFGABE
+> Löse die obige  Gleichung nach $Q$ auf.
+[[Q = \Delta E_{i} - W]]
+@canvas
+
+Betrachten wir zunächst den einfachen Fall, dass keine Volumenarbeit bei einer Reaktion verrichtet wird. Das ist z. B. bei der Neutralisationsreaktion von Salzsäure mit Natronlauge (Natriumhydroxid-Lösung) der Fall.
+
+$$\ce{HCl + NaOH -> NaCl + H2O} \quad \Delta E_i < 0$$
+
+In diesem Fall wird die gesamte frei werdende Energie als Wärme übertragen. Somit fällt die Volumenarbeit $W$ weg und die übertragene Wärmemenge entspricht der Änderung der inneren Energie:
+
+$$\Delta U = \Delta E_{i} = Q$$
+
+Bei vielen Reaktionen wird jedoch ein Teil der Energie als Volumenarbeit übertragen. Es gibt nun zwei verschiedene Möglichkeiten die Reaktionswärme $Q$ für solche Reaktionen zu messen:
+
+- __Messung bei konstantem Volumen__ (dies entspricht einem geschlossenem System. Entstehendes Gas kann nicht entweichen. Folglich kommt es zu keiner Volumenarbeit, aber der Druck im Reaktionsgefäß erhöht sich)
+- __Messung bei konstantem Druck__ (dies entspricht einem offenem System, da entstehende Gase entweichen können; dadurch ändert sich der Druck im Reaktionsgefäß nicht)
+
+Exemplarisch kann man das für die Reaktion von Magnesium mit Salzsäure durchdenken:
+
+> [!IMPORTANT] AUFGABE
+> Gleiche die folgende Reaktionsgleichung aus:
+>
+> _Hinweis: Schreibe abweichend vom Standard auch „0“ und „1“ in die Kästchen, damit die Aufgabe automatisiert ausgewertet werden kann._
+
+Reaktionsgleichung: [[2]] $Mg +$ [[2]] $HCl \rightarrow$ [[1]] $MgCl_{2} +$ [[2]] $H_{2}$
+****
+Bei dieser Reaktion entsteht pro Mol Magnesium, das reagiert, ein Mol gasförmigen Wasserstoffs. Dadurch erhöht sich die Teilchenzahl in der Gasphase in damit je nachdem das Volumen bzw. der Druck.
+****
+
+![](Messung_Q_const_p_V.png "Messung der Reaktionswärme bei konstantem Volumen (links) bzw. konstantem Druck (rechts)[^1]")
+
+Bei der Messung mit konstantem Druck fällt die Temperaturerhöhung geriner aus als bei der Messung mit konstantem Volumen. Das liegt daran, dass ein Teil der vom System an die Umgebung abgegebenen Energie als Volumenarbeit frei wird. 
+
+> [!IMPORTANT] Aufgabe
+> Wie verhalten sich $Q_{p}$ und $Q_{V}$ zueinander?
+[( )] $Q_{p} > Q_{V}$
+[(x)] $Q_{p} < Q_{V}$
+[( )] $Q_{p} \leq Q_{V}$
+[( )] $Q_{p} = Q_{V}$
+****
+
+Da $Q$ und $W$ zusammen dem Wert von $\Delta E_{i}$ ergeben und bei konstantem Volumen $W = 0$ entspricht, gilt:
+
+* $\Delta E_{i} = Q_{V}$ ; bei konstantm Volumen
+* $\Delta E_{i} = Q_{p} + W$ ; bei konstantem Druck
+
+****
 
 ![Schemazeichnung eines Bombenkalorimeters](Bombenkalorimeter.png)
 ![Schemazeichnung eines Lösungskalorimeters](Loesungskalorimeter.png)
+
+[^1]: Johannes Kremsreiter, 2026, KI-generiert mit gpt-image-2.5-sunburst von EmuKI
+
 ### Die Enthalpie
 
 ### Der Satz von Hess
